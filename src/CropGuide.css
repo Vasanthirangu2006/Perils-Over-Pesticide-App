@@ -1,0 +1,308 @@
+.guide-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.crop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.crop-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.crop-card img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.crop-card:hover img {
+  transform: scale(1.1);
+}
+
+.crop-info {
+  margin-top: 40px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.info-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .guide-container {
+    padding: 12px;
+  }
+
+  .crop-card img {
+    max-height: 120px;
+  }
+
+  .info-image {
+    max-height: 250px;
+  }
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.info-block {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.info-block h3 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.info-block ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.pesticide-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.pesticide-table th,
+.pesticide-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.pesticide-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.tips-block {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.tips-block h3 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.tips-block ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.info-block {
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.pesticide-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.pesticide-table th,
+.pesticide-table td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.pesticide-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pesticide-table th,
+  .pesticide-table td {
+    font-size: 0.9rem;
+  }
+}
+.climate-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.climate-popup {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 250px;
+  z-index: 1000;
+}
+
+.climate-popup h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #2e8b57;
+}
+
+.climate-popup ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.climate-popup li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+body {
+  background-image: url('https://thumbs.dreamstime.com/b/empty-wooden-photo-frame-farm-background-empty-wooden-photo-frame-paddy-farm-background-111650526.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 10;
+  padding: 20;
+}
+
+.guide-container {
+  background-color: rgba(255, 255, 255, 0.92); /* soft white overlay */
+  padding: 20px;
+  max-width: 1400px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.climate-button,
+.camera-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+  margin-bottom: 10px;
+}
+.climate-button {
+    bottom: 20px;
+}
+.camera-button {
+  bottom: 70px;
+}
+
+.climate-popup {
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 250px;
+  z-index: 1000;
+}
+
+.top-buttons {
+  position: fixed;
+  top: 30px;
+  right: 70px;
+  display: flex;
+  gap: 32px;
+  z-index: 1000;
+}
+
+.top-buttons button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.climate-popup {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 250px;
+  z-index: 1000;
+}
+
+
+
+
+
