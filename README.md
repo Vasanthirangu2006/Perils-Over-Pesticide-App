@@ -28,7 +28,7 @@ Agri Saathi provides a user-friendly platform that helps farmers:
 ---
 
 ##  Live Demo
-👉 [Click here to view the project] (https://lovable.dev/projects/dea6ea73-bcf9-42c5-9971-440bf908305a )
+👉 [Click here to view the project] ( https://youtu.be/iwcFkOra_es )
 
 ---
 
@@ -36,9 +36,6 @@ Agri Saathi provides a user-friendly platform that helps farmers:
 This is a prototype developed using Lovable. Advanced features like real-time pest detection can be integrated using AI/ML models in future versions.
 
 ---
-
-## 🖼️ Project Workflow
-*(Add your screenshots here if available)*
 
 ![Home](images/home.png)
 ![Results](images/results.png)
