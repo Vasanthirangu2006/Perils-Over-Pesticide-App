@@ -37,11 +37,6 @@ This is a prototype developed using Lovable. Advanced features like real-time pe
 
 ---
 
-![Home](images/home.png)
-![Results](images/results.png)
-
----
-
 ##  Technologies Used
 - Lovable (Prototype Development)  
 - HTML, CSS, JavaScript *(if applicable)*  
